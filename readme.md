@@ -2,6 +2,8 @@
 
 This repository contains the `ViolenceClass` interface for classifying images as either containing violence or not. The model is based on ResNet-34 and uses PyTorch for inference.
 
+由于数据集和模型权重文件过大，可通过对应文件夹中给出的下载链接进行下载。
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
