@@ -9,7 +9,7 @@ from pytorch_lightning import LightningDataModule
 class CustomDataset(Dataset):
     def __init__(self, split):
         assert split in ["train", "val"]
-        data_root = "data"
+        data_root = "data/"
         self.data = [os.path.join(data_root, split, i) for i in os.listdir(data_root + split)]
         if split == "train":
             # 定义训练集的数据预处理步骤
