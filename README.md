@@ -2,7 +2,7 @@
 
 This repository contains the `ViolenceClass` interface for classifying images as either containing violence or not. The model is based on ResNet-34 and uses PyTorch for inference.
 
-由于/checkpoint中的ckpt文件使用git LFS上传，当用git clone下载时可能无法正常使用。如运行过程中遇到checkpoint相关报错，可通过下面给出的云盘链接下载并替换/checkpoint中的ckpt文件。
+由于/checkpoint中的ckpt文件使用git LFS上传，当用git clone下载时可能无法正常使用，推荐使用git LFS进行clone操作，或者通过下面给出的云盘链接下载并替换/checkpoint中的ckpt文件。
 
 https://jbox.sjtu.edu.cn/l/21hTT6
 
@@ -17,7 +17,7 @@ https://jbox.sjtu.edu.cn/l/21hTT6
 
 1. Clone the repository:
     ```sh
-    git https://github.com/Sumireko-Usami/inappropriate-content-image-detection-model.git
+    git lfs clone https://github.com/Sumireko-Usami/inappropriate-content-image-detection-model.git
     cd inappropriate-content-image-detection-model
     ```
 
