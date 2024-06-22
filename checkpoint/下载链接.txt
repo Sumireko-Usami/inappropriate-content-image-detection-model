@@ -1,0 +1,2 @@
+如git clone下载的checkpoint文件无法正常使用，可通过下面的云盘链接进行下载：
+https://jbox.sjtu.edu.cn/l/21hTT6
